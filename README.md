@@ -1,7 +1,7 @@
 # echo_glob
 Monitor directories for log files and echo them to STDOUT
 
-Have you ever needed to monitor a directory that rotating logs, 
+Have you ever needed to monitor a directory that has rotating log files, 
 changing filenames, or otherwise just want to `tail -f *` and 
 have the system know when new files showed up?  Then `echo_glob.py` 
 is the tool that you need.  
