@@ -31,7 +31,7 @@ arg_parser.add_argument('--no-time-stamp', '-NTS', action='store_true'
 
 arg_parser.add_argument('--no-file-name', '-NFN', action='store_true'     
     , dest='no_file_name'
-    , help="Suppress file bame in the output."
+    , help="Suppress file name in the output."
     )
 
 args = arg_parser.parse_args()
